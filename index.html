@@ -22,32 +22,30 @@
   </head>
   <body>
     <!-- block header -->
-    <header>
-      <div class="container">
-        <div class="container-link-address">
-          <nav class="nav-links">
-            <a class="logo" href="./index.html"
-              >Web<span class="nav-links-logo-studio">Studio</span>
-            </a>
-            <ul class="container-link">
-              <li><a class="link" href="./index.html">Studio</a></li>
-              <li><a class="link" href="">Portfolio</a></li>
-              <li><a class="link" href="">Contacts</a></li>
-            </ul>
-          </nav>
-          <address class="address-links">
-            <ul class="container-address">
-              <li>
-                <a class="link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-              </li>
-            </ul>
-          </address>
-        </div>
+    <header class="header">
+      <div class="container container-link-address">
+        <nav class="nav-links">
+          <a class="logo" href="./index.html"
+            >Web<span class="nav-links-logo-studio">Studio</span>
+          </a>
+          <ul class="container-link">
+            <li><a class="link" href="./index.html">Studio</a></li>
+            <li><a class="link" href="">Portfolio</a></li>
+            <li><a class="link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address-links">
+          <ul class="container-address">
+            <li>
+              <a class="link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
     <!-- block main -->
@@ -58,11 +56,9 @@
           <h1 class="section-one-title">
             Effective Solutions for Your Business
           </h1>
-          <div class="container-button">
-            <button class="section-one-button" type="button">
-              <span class="section-one-button-text">Order Service</span>
-            </button>
-          </div>
+          <button class="section-one-button" type="button">
+            <span class="section-one-button-text">Order Service</span>
+          </button>
         </div>
       </section>
       <!-- sect 2 -->
@@ -119,8 +115,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="our-team-title">Mark Guerrero</h3>
-              <p class="our-team-text">Product Designer</p>
+              <div class="our-team-title-text">
+                <h3 class="our-team-title">Mark Guerrero</h3>
+                <p class="our-team-text">Product Designer</p>
+              </div>
             </li>
             <!-- 2 -->
             <li class="our-team-list">
@@ -130,8 +128,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="our-team-title">Tom Ford</h3>
-              <p class="our-team-text">Frontend Developer</p>
+              <div class="our-team-title-text">
+                <h3 class="our-team-title">Tom Ford</h3>
+                <p class="our-team-text">Frontend Developer</p>
+              </div>
             </li>
             <!-- 3 -->
             <li class="our-team-list">
@@ -141,8 +141,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="our-team-title">Camila Garcia</h3>
-              <p class="our-team-text">Marketing</p>
+              <div class="our-team-title-text">
+                <h3 class="our-team-title">Camila Garcia</h3>
+                <p class="our-team-text">Marketing</p>
+              </div>
             </li>
             <!-- 4 -->
             <li class="our-team-list">
@@ -152,8 +154,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="our-team-title">Daniel Wilson</h3>
-              <p class="our-team-text">UI Designer</p>
+              <div class="our-team-title-text">
+                <h3 class="our-team-title">Daniel Wilson</h3>
+                <p class="our-team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -163,7 +167,7 @@
         <div class="container">
           <h2 class="our-portfolio">Our Portfolio</h2>
           <!-- list -->
-          <ul class="container-one-our-portfolio">
+          <ul class="container-our-portfolio">
             <!-- 1 -->
             <li class="our-portfolio-list">
               <img
@@ -172,8 +176,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="photo-title">Banking App</h3>
-              <p class="photo-title-text">App</p>
+              <div class="photo-title-photo-title-text">
+                <h3 class="photo-title">Banking App</h3>
+                <p class="photo-title-text">App</p>
+              </div>
             </li>
             <!-- 2 -->
             <li class="our-portfolio-list">
@@ -183,8 +189,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="photo-title">Cashless Payment</h3>
-              <p class="photo-title-text">Marketing</p>
+              <div class="photo-title-photo-title-text">
+                <h3 class="photo-title">Cashless Payment</h3>
+                <p class="photo-title-text">Marketing</p>
+              </div>
             </li>
             <!-- 3 -->
             <li class="our-portfolio-list">
@@ -194,12 +202,12 @@
                 width="360"
                 height="300"
               />
-              <h3 class="photo-title">Meditation App</h3>
-              <p class="photo-title-text">App</p>
+              <div class="photo-title-photo-title-text">
+                <h3 class="photo-title">Meditation App</h3>
+                <p class="photo-title-text">App</p>
+              </div>
             </li>
-          </ul>
-          <!-- 4 -->
-          <ul class="container-two-our-portfolio">
+            <!-- 4 -->
             <li class="our-portfolio-list">
               <img
                 src="./images/Taxi-Service.jpg"
@@ -207,8 +215,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="photo-title">Taxi Service</h3>
-              <p class="photo-title-text">Marketing</p>
+              <div class="photo-title-photo-title-text">
+                <h3 class="photo-title">Taxi Service</h3>
+                <p class="photo-title-text">Marketing</p>
+              </div>
             </li>
             <!-- 5 -->
             <li class="our-portfolio-list">
@@ -218,8 +228,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="photo-title">Screen Illustrations</h3>
-              <p class="photo-title-text">Design</p>
+              <div class="photo-title-photo-title-text">
+                <h3 class="photo-title">Screen Illustrations</h3>
+                <p class="photo-title-text">Design</p>
+              </div>
             </li>
             <!-- 6 -->
             <li class="our-portfolio-list">
@@ -229,8 +241,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="photo-title">Online Courses</h3>
-              <p class="photo-title-text">Marketing</p>
+              <div class="photo-title-photo-title-text">
+                <h3 class="photo-title">Online Courses</h3>
+                <p class="photo-title-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
