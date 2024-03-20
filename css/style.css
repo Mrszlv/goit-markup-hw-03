@@ -50,7 +50,6 @@ image {
 .nav-links {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .logo {
   display: flex;
@@ -214,7 +213,6 @@ image {
 }
 .our-team-list {
   background: #fff;
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -260,7 +258,6 @@ image {
   row-gap: 48px;
 }
 .our-portfolio-list {
-  display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
